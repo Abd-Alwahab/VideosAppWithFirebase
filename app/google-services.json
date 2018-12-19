@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "222275948795",
+    "firebase_url": "https://videosappwithfirebase-27e2c.firebaseio.com",
+    "project_id": "videosappwithfirebase-27e2c",
+    "storage_bucket": "videosappwithfirebase-27e2c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:222275948795:android:178cb684cf74d0a8",
+        "android_client_info": {
+          "package_name": "com.bayanadam.videosappwithfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "222275948795-i89pke51lvjt86ou9derbmd5hr3c6nuf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.bayanadam.videosappwithfirebase",
+            "certificate_hash": "d3e51057c9f318d068ef8b3f5897a60192ca360c"
+          }
+        },
+        {
+          "client_id": "222275948795-9afao4ah5t0hpc45ism292bs45eon74a.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDLA0R8e9E0rMYoYR3_Dn9RruTFpkbGxxM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "222275948795-9afao4ah5t0hpc45ism292bs45eon74a.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

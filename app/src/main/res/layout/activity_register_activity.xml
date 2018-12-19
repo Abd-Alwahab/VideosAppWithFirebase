@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Login_activity" android:background="@color/blue">
+
+    <TextView
+            android:text="Create New account"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_marginTop="40dp"
+            android:layout_marginStart="40dp" android:layout_marginEnd="40dp" android:layout_marginBottom="40dp"
+            android:textColor="#fff" android:textSize="24sp" android:textAlignment="center"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/user_register_Eamil" android:layout_centerInParent="true"
+            android:background="@drawable/edit_text" android:hint="youremail@gmail.com " android:layout_marginTop="30dp"
+            android:layout_marginStart="30dp" android:layout_marginEnd="30dp"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/user_register_password" android:layout_below="@+id/user_register_Eamil"
+            android:layout_centerHorizontal="true" android:layout_marginTop="10dp"
+            android:background="@drawable/edit_text" android:hint="typeyourpassword" android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp" android:layout_marginBottom="10dp"/>
+    <Button
+            android:text="Register"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" android:id="@+id/register"
+            android:layout_below="@+id/user_register_password" android:background="@drawable/buttons"
+            android:layout_marginTop="10dp" android:layout_marginStart="30dp" android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp" android:layout_centerHorizontal="true" android:textColor="#fff"
+            android:textSize="18sp"/>
+</RelativeLayout>

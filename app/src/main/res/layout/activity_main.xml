@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity" android:background="@color/green">
+    <Button
+            android:text="Login"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" android:id="@+id/button2" android:background="@drawable/buttons"
+            android:textColor="#fff" android:textSize="18sp"
+            android:layout_centerInParent="false" android:layout_below="@+id/textView"
+            android:layout_centerHorizontal="true" android:layout_marginTop="30dp" android:onClick="Login_btn"/>
+    <TextView
+            android:text="OR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView" android:layout_below="@+id/button"
+            android:layout_centerHorizontal="true" android:layout_marginTop="30dp" android:textSize="24sp"
+            android:textColor="#fff"/>
+    <Button
+            android:text="Register "
+            android:layout_width="300dp"
+            android:layout_height="wrap_content" android:id="@+id/button" android:background="@drawable/buttons"
+            android:textColor="#fff" android:textSize="18sp"
+            android:layout_centerInParent="true" android:onClick="Register_btn"/>
+    <TextView
+            android:text="Welcome To Our Online School"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView2" android:textColor="#fff"
+            android:textSize="24sp" android:textStyle="bold" android:textAlignment="center"
+            android:layout_marginTop="40dp" android:layout_marginStart="40dp" android:layout_marginEnd="40dp"
+            android:layout_marginBottom="40dp"/>
+</RelativeLayout>
